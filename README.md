@@ -19,6 +19,9 @@
 
 **EX:**  [`https://api.data.gov/ed/collegescorecard/v1/schools.json?api_key={{API_KEY}}&sort=school.name:asc`](https://api.data.gov/ed/collegescorecard/v1/schools.json?api\_key=\{{API\_KEY\}}\&sort=school.name:asc)
 
+\
+**Note:** Sorting is only available on fields with the data type `integer`, `float`, `autocomplete` or `name`.
+
 </details>
 
 <details>
@@ -85,11 +88,66 @@ school.state\[]: CA
 
 
 
+**Zip** ➡️
 
 
 
+zip=16332
 
 
+
+**EX**: [`https://api.data.gov/ed/collegescorecard/v1/schools.json?api_key={{API_KEY}}&fields=id,school.name&zip=16332`](https://api.data.gov/ed/collegescorecard/v1/schools.json?api\_key=\{{API\_KEY\}}\&fields=id,school.name\&zip=16332)
+
+
+
+**Note**: us zip code only support
+
+
+
+***
+
+
+
+**Distance** ➡️
+
+
+
+* distance=10mi
+
+( or )
+
+* distance=10km
+
+mi = miles
+
+km = kilometer
+
+
+
+**EX**:  [`https://api.data.gov/ed/collegescorecard/v1/schools.json?api_key={{API_KEY}}&fields=id,school.name&zip=16332&distance=100mi`\
+](https://api.data.gov/ed/collegescorecard/v1/schools.json?api\_key=\{{API\_KEY\}}\&fields=id,school.name\&zip=16332\&distance=100mi)
+
+**Note:** For example, `zip=12345&distance=10mi` will return only those results within 10 miles of the center of the given zip code.
+
+
+
+***
+
+
+
+**MORE INFO 🧠:**
+
+
+
+When the dataset includes a `location` at the root level (`location.lat` and `location.lon`) then the documents will be indexed geographically. You can use the `zip` and `distance` options to narrow query results down to those within a geographic area. For example, `zip=12345&distance=10mi` will return only those results within 10 miles of the center of the given zip code.
+
+Additionally, you can request `location.lat` and `location.lon` in a search that includes a `fields` filter and it will return the record(s) with respective lat and/or lon coordinates.
+
+**Additional Notes on Geographic Filtering**
+
+* By default, any number passed in the `distance` parameter is treated as a number of miles, but you can specify miles or kilometers by appending `mi` or `km` respectively.
+* Distances are calculated from the center of the given zip code, not the boundary.
+* Only U.S. zip codes are supported.
 
 
 
