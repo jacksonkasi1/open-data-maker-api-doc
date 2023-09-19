@@ -161,11 +161,352 @@ Additionally, you can request `location.lat` and `location.lon` in a search that
 
 
 
+![](<.gitbook/assets/image (2).png>)
+
+
+
 ## Undergraduate
+
+
+
+programs.cip\_4\_digit.credential.level = 1
+
+programs.cip\_4\_digit.credential.level = 2
+
+programs.cip\_4\_digit.credential.level = 3
+
+
+
+## Graduate
+
+
+
+programs.cip\_4\_digit.credential.level = 4
+
+programs.cip\_4\_digit.credential.level = 5
+
+programs.cip\_4\_digit.credential.level = 6
+
+programs.cip\_4\_digit.credential.level = 7
+
+programs.cip\_4\_digit.credential.level = 8
+
+
+
+<mark style="color:yellow;">**All Value :**</mark>
+
+* [ ] 1 = `Undergraduate Certificate or Diploma`
+* [ ] 2 = `Associate's Degree`
+* [ ] 3 = `Bachelor's Degree`
+* [ ] 4 = `Post-baccalaureate Certificate`
+* [ ] 5 = `Master's Degree`
+* [ ] 6 = `Doctoral Degree`
+* [ ] 7 = `First Professional Degree`
+* [ ] 8 = `Graduate/Professional Certificate`&#x20;
+
+
+
+**EX:** [`https://api.data.gov/ed/collegescorecard/v1/schools.json?api_key={{API_KEY}}&fields=id,school.name&programs.cip_4_digit.credential.level=6`](https://api.data.gov/ed/collegescorecard/v1/schools.json?api\_key=\{{API\_KEY\}}\&fields=id,school.name\&programs.cip\_4\_digit.credential.level=6)
+
+
+
+**Responce:**&#x20;
+
+```json
+{
+    "metadata": {
+        "page": 0,
+        "total": 12,
+        "per_page": 2
+    },
+    "results": [
+        {
+            "school.name": "Dominican University New York",
+            "school.city": "Orangeburg",
+            "school.state": "NY",
+            "id": 190761
+        },
+        {
+            "school.name": "New York Institute of Technology",
+            "school.city": "Old Westbury",
+            "school.state": "NY",
+            "id": 194091
+        }
+    ]
+}
+```
+
+
+
+**EX of get with values:**
+
+`https://api.data.gov/ed/collegescorecard/v1/schools.json?api_key={{API_KEY}}&fields=id,school.name,school.city,school.state,school.zip,school.accreditor,location.lat,location.lon,programs.cip_4_digit.credential.title,programs.cip_4_digit.credential.level&page=0&per_page=10&programs.cip_4_digit.credential.level=6`
+
+
+
+**Responce:**&#x20;
+
+```json
+{
+    "metadata": {
+        "page": 0,
+        "total": 1083,
+        "per_page": 2
+    },
+    "results": [
+        {
+            "latest.programs.cip_4_digit": [
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                }
+            ],
+            "school.name": "Alabama A & M University",
+            "school.city": "Normal",
+            "school.state": "AL",
+            "school.zip": "35762",
+            "school.accreditor": "Southern Association of Colleges and Schools Commission on Colleges",
+            "id": 100654,
+            "location.lat": 34.783368,
+            "location.lon": -86.568502
+        },
+        {
+            "latest.programs.cip_4_digit": [
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                },
+                {
+                    "credential": {
+                        "level": 6,
+                        "title": "Doctoral Degree"
+                    }
+                }
+            ],
+            "school.name": "University of Alabama at Birmingham",
+            "school.city": "Birmingham",
+            "school.state": "AL",
+            "school.zip": "35294-0110",
+            "school.accreditor": "Southern Association of Colleges and Schools Commission on Colleges",
+            "id": 100663,
+            "location.lat": 33.505697,
+            "location.lon": -86.799345
+        }
+    ]
+}
+```
+
+
+
+
 
 
 
 
 
 </details>
+
+
 
