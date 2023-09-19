@@ -1,4 +1,4 @@
-# Search fields:
+# Search filter options:
 
 
 
@@ -155,35 +155,17 @@ Additionally, you can request `location.lat` and `location.lon` in a search that
 
 </details>
 
+<details>
 
-
-### College fields:
-
-* `id`
-* `school.name`
-* `school.city`
-* `school.state`
-* `2013.student.size ( max year up to 2020 )`
-* `latest.student.size`
-* `school.branches`
-* `school.locale`
-* `school.ownership`
-* `school.degrees_awarded.predominant`
-* `latest.academics.program_reporter.programs_offered`
-* `latest.cost.avg_net_price.overall`
-* `latest.completion.consumer_rate`
-* `latest.earnings.10_yrs_after_entry.median`
-* `latest.earnings.6_yrs_after_entry.percent_greater_than_25000`
-* `school.under_investigation`
-* `latest.completion.outcome_percentage_suppressed.all_students.8yr.award_pooled`
-* `latest.completion.rate_suppressed.four_year`
-* `latest.completion.rate_suppressed.lt_four_year_150percent`
-* `latest.programs.cip_4_digit`
+<summary>Degree Types</summary>
 
 
 
-* `location.lon` - Latitude
-* `location.lat` - Longitude
-* `ope8_id`   - 8-digit OPE ID for institution
-* `ope6_id`    - 6-digit OPE ID for institution
-*
+## Undergraduate
+
+
+
+
+
+</details>
+

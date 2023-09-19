@@ -3,7 +3,7 @@
 ## API Endpoint
 
 ```markdown
-https://api.data.gov/ed/collegescorecard/v1/schools.json?api_key={{API_KEY}}&school.name=New%20York&fields=id,school.name,2013.student.size&page=1&per_page=10&sort=school.name:asc
+https://api.data.gov/ed/collegescorecard/v1/schools.json?api_key={{API_KEY}}&school.name=New%20York&fields=id,school.name,school.city,school.state&page=1&per_page=10&sort=school.name:asc
 ```
 
 ## API Query Parameters
@@ -12,7 +12,7 @@ https://api.data.gov/ed/collegescorecard/v1/schools.json?api_key={{API_KEY}}&sch
 {
   "api_key": "{{API_KEY}}",
   "school.name":"New York",
-  "fields": "id,school.name,2021.student.size",
+  "fields": "id,school.name,school.city,school.state",
   "page": 1,
   "per_page": 10
 }
@@ -21,6 +21,84 @@ https://api.data.gov/ed/collegescorecard/v1/schools.json?api_key={{API_KEY}}&sch
 **note**: 2020.student.size (year will dynamic change, but data only available up to 2020)
 
 > Replace \{{API\_KEY\}} with your actual API key to access the data.
+
+
+
+<details>
+
+<summary>Response:</summary>
+
+
+
+```json
+{
+    "metadata": {
+        "page": 1,
+        "total": 19,
+        "per_page": 10
+    },
+    "results": [
+        {
+            "school.name": "New York Institute of Massage Inc",
+            "school.city": "Williamsville",
+            "school.state": "NY",
+            "id": 431071
+        },
+        {
+            "school.name": "New York Medical Career Training Center",
+            "school.city": "Flushing",
+            "school.state": "NY",
+            "id": 457800
+        },
+        {
+            "school.name": "New York School for Medical and Dental Assistants",
+            "school.city": "Long Island City",
+            "school.state": "NY",
+            "id": 193858
+        },
+        {
+            "school.name": "New York School of Esthetics & Day Spa",
+            "school.city": "white plains",
+            "school.state": "NY",
+            "id": 475404
+        },
+        {
+            "school.name": "New York School of Interior Design",
+            "school.city": "New York",
+            "school.state": "NY",
+            "id": 194116
+        },
+        {
+            "school.name": "New York Seminary",
+            "school.city": "Brooklyn",
+            "school.state": "NY",
+            "id": 493798
+        },
+        {
+            "school.name": "Robert Fiance Beauty Schools-West New York",
+            "school.city": "West New York",
+            "school.state": "NJ",
+            "id": 185767
+        },
+        {
+            "school.name": "SAE Institute of Technology-New York",
+            "school.city": "New York",
+            "school.state": "NY",
+            "id": 459462
+        },
+        {
+            "school.name": "School of Professional Horticulture New York Botanical Garden",
+            "school.city": "Bronx",
+            "school.state": "NY",
+            "id": 392354
+        }
+    ]
+}
+```
+
+
+
+</details>
 
 
 
