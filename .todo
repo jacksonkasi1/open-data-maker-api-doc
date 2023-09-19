@@ -1,0 +1,12 @@
+API_KEY = 9CU3ffkUjfczPx4I05P4Ci8gQJMnNvO871WPrpvg
+
+
+
+https://collegescorecard.ed.gov/data/documentation/
+
+https://github.com/RTICWDT/open-data-maker/blob/master/API.md
+
+
+EX WEB VIEW: https://collegescorecard.ed.gov/school/?209490-Oregon-Health-Science-University
+
+EX API VIEW: https://api.data.gov/ed/collegescorecard/v1/schools/?api_key=9CU3ffkUjfczPx4I05P4Ci8gQJMnNvO871WPrpvg&id=209490
