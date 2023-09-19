@@ -3,7 +3,7 @@
 ## API Endpoint
 
 ```markdown
-https://api.data.gov/ed/collegescorecard/v1/schools.json?api_key={{API_KEY}}&school.name=New%20York&school.degrees_awarded.predominant=2,1&fields=id,school.name,2013.student.size&page=1&per_page=10&sort=school.name:asc
+https://api.data.gov/ed/collegescorecard/v1/schools.json?api_key={{API_KEY}}&school.name=New%20York&fields=id,school.name,2013.student.size&page=1&per_page=10&sort=school.name:asc
 ```
 
 ## API Query Parameters
@@ -12,7 +12,6 @@ https://api.data.gov/ed/collegescorecard/v1/schools.json?api_key={{API_KEY}}&sch
 {
   "api_key": "{{API_KEY}}",
   "school.name":"New York",
-  "school.degrees_awarded.predominant": "2,3",
   "fields": "id,school.name,2021.student.size",
   "page": 1,
   "per_page": 10
