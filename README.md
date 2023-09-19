@@ -8,6 +8,8 @@
 
 <summary>sort</summary>
 
+
+
 * asc&#x20;
 * desc
 
@@ -21,11 +23,15 @@
 
 <details>
 
-<summary>page &#x26; per_page</summary>
+<summary>page &#x26; per_page &#x26; total ( meta data )</summary>
+
+
 
 **page**  - search api  page id&#x20;
 
-**per\_page** - data limit per page ( max 100 )\
+**per\_page** - data limit per page ( max 100 )
+
+**total -** total page count for search\
 
 
 ***
@@ -115,3 +121,11 @@ school.state\[]: CA
 * `latest.completion.rate_suppressed.four_year`
 * `latest.completion.rate_suppressed.lt_four_year_150percent`
 * `latest.programs.cip_4_digit`
+
+
+
+* `location.lon` - Latitude
+* `location.lat` - Longitude
+* `ope8_id`   - 8-digit OPE ID for institution
+* `ope6_id`    - 6-digit OPE ID for institution
+*
