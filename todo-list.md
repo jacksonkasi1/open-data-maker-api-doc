@@ -13,7 +13,7 @@ Search Filter Todo:
 
 Course Page Todo:
 
-* [ ] find available data what need by figma
+* [x] find available data what need by figma ( ignore bcz it's not give course data )
 
 
 
