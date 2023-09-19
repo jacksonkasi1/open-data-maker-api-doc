@@ -210,7 +210,7 @@ programs.cip\_4\_digit.credential.level = 8
 
 
 
-**Responce:**&#x20;
+**Response:**&#x20;
 
 ```json
 {
@@ -240,11 +240,11 @@ programs.cip\_4\_digit.credential.level = 8
 
 **EX of get with values:**
 
-`https://api.data.gov/ed/collegescorecard/v1/schools.json?api_key={{API_KEY}}&fields=id,school.name,school.city,school.state,school.zip,school.accreditor,location.lat,location.lon,programs.cip_4_digit.credential.title,programs.cip_4_digit.credential.level&page=0&per_page=10&programs.cip_4_digit.credential.level=6`
+[`https://api.data.gov/ed/collegescorecard/v1/schools.json?api_key={{API_KEY}}&fields=id,school.name,school.city,school.state,school.zip,school.accreditor,location.lat,location.lon,programs.cip_4_digit.credential.title,programs.cip_4_digit.credential.level&page=0&per_page=10&programs.cip_4_digit.credential.level=6`](https://api.data.gov/ed/collegescorecard/v1/schools.json?api\_key=\{{API\_KEY\}}\&fields=id,school.name,school.city,school.state,school.zip,school.accreditor,location.lat,location.lon,programs.cip\_4\_digit.credential.title,programs.cip\_4\_digit.credential.level\&page=0\&per\_page=10\&programs.cip\_4\_digit.credential.level=6)
 
 
 
-**Responce:**&#x20;
+**Response:**&#x20;
 
 ```json
 {
