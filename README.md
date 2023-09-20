@@ -510,7 +510,7 @@ programs.cip\_4\_digit.credential.level = 8
 
 <details>
 
-<summary>f</summary>
+<summary>Academic Fields</summary>
 
 
 
