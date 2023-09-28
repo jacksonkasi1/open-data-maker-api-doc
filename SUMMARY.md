@@ -13,3 +13,5 @@
 ## 😎 School Doc V✌️ <a href="#school-doc-v2" id="school-doc-v2"></a>
 
 * [🧐 Hint's 💡](school-doc-v2/hints.md)
+* [Hints](school-doc-v2/hints-1.md)
+* [List it for mogno db](school-doc-v2/list-it-for-mogno-db.md)
