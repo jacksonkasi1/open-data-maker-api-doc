@@ -22,4 +22,12 @@
 
 ## School collection
 
-{ "\_id": ObjectId, # Unique identifier for the school document "UNITID": String, # Unique identification number of the institution (primary key) "name": String, # Name of the school "location": String, # Location of the school "other\_fields": Any # Other fields specific to the school }
+```javascript
+{ 
+"_id": ObjectId, # Unique identifier for the school document 
+"UNITID": String, # Unique identification number of the institution (primary key)
+"name": String, # Name of the school 
+"location": String, # Location of the school 
+"other_fields": Any # Other fields specific to the school 
+}
+```
