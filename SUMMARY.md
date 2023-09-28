@@ -14,4 +14,5 @@
 
 * [🧐 Hint's 💡](school-doc-v2/hints.md)
 * [Hints](school-doc-v2/hints-1.md)
-* [List it for mogno db](school-doc-v2/list-it-for-mogno-db.md)
+* [School info List it for mogno db](school-doc-v2/school-info-list-it-for-mogno-db.md)
+* [Fee Info Basic knowledge](school-doc-v2/fee-info-basic-knowledge.md)
