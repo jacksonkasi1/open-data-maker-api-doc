@@ -16,3 +16,5 @@
 * [Hints](school-doc-v2/hints-1.md)
 * [School info List it for mogno db](school-doc-v2/school-info-list-it-for-mogno-db.md)
 * [Fee Info Basic knowledge](school-doc-v2/fee-info-basic-knowledge.md)
+* [Fee Mode](school-doc-v2/fee-mode.md)
+* [Final Fee Model with Doc](school-doc-v2/final-fee-model-with-doc.md)
