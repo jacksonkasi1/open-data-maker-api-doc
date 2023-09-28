@@ -1,6 +1,6 @@
 # Fee Mode
 
-## SchoolFee collection
+## School Fee collection
 
 ```javascript
 # SchoolFee collection
