@@ -18,3 +18,4 @@
 * [Fee Info Basic knowledge](school-doc-v2/fee-info-basic-knowledge.md)
 * [Fee Mode](school-doc-v2/fee-mode.md)
 * [Final Fee Model with Doc](school-doc-v2/final-fee-model-with-doc.md)
+* [Models connect - Draw](school-doc-v2/models-connect-draw.md)
