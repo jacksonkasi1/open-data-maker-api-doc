@@ -36,6 +36,7 @@ coverY: 0
 **Program Page**
 
 * [ ] About University ( short info )
+* [ ] Review Count
 * [ ] &#x20;Delivered
   * [ ] ex: Online, Offline, Hybrite
 * [ ] Program Overview ( this will come under Program data )
