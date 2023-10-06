@@ -21,11 +21,11 @@ coverY: 0
 
 * [ ] Duration&#x20;
   * [ ] ex: 2, 4, ...
-* [ ] Duration Type
+* [ ] <mark style="background-color:yellow;">Duration Type (once check field of study document again, but for phd course maybe not)</mark>
   * [ ] ex: month, week, year, ...
-* [ ] Format
+* [ ] ~~Format~~
   * [ ] Full Time, Part Time, ...
-* [ ] Attendance
+* [ ] ~~Attendance~~
   * [ ] ex: ---
 * [ ] Acceptance Rate
   * [ ] ex: it's a percentage. ---
